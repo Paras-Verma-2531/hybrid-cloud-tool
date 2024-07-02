@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hybrid Cloud Management Tool</title>
+    <title>Hybrid Cloud Resource Monitoring Dashboard</title>
 </head>
 <body>
-    <h1>Welcome to the Hybrid Cloud Management Tool</h1>
-    <p>This tool helps you manage resources across AWS, Azure, and Google Cloud.</p>
+    <h1>Welcome to the Hybrid Cloud Resource Monitoring Dashboard!</h1>
+    <a href="{{ url_for('main.resources') }}"><button>Resources</button></a>
+    <a href="{{ url_for('main.azure_resources') }}"><button>Azure Resources</button></a>
 </body>
 </html>

@@ -20,8 +20,7 @@ def resources():
 
 @main.route('/azure_resources')
 def azure_resources():
-    resources = get_azure_resources()
-    return jsonify([resource.id for resource in resources])
+    return get_azure_resources()
 
 # @main.route('/gcp_resources')
 # def gcp_resources():
