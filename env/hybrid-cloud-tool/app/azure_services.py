@@ -7,13 +7,10 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 
 def get_azure_resources():
-    # Initialize Azure CLI credential
     credential = AzureCliCredential()
 
-    # Replace <subscription_id> with your Azure subscription ID
     subscription_id = '2780142e-3e5e-4f38-9b5c-5555e7c5f377'
 
-    # Initialize ResourceManagementClient with Azure CLI credential
     client = ResourceManagementClient(credential, subscription_id)
 
     try:
