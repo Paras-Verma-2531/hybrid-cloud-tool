@@ -8,8 +8,8 @@ logging.basicConfig(level=logging.DEBUG)
 def get_aws_resources():
     try:
         session = boto3.Session(
-            aws_access_key_id='',
-            aws_secret_access_key='',
+            aws_access_key_id='AKIAREHR4UICBFSCZN4M',
+            aws_secret_access_key='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',
             region_name='ap-south-1'
         )
         ec2 = session.resource('ec2')
