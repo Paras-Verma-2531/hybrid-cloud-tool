@@ -3,7 +3,7 @@ from azure.mgmt.monitor import MonitorManagementClient
 from azure.mgmt.resource import ResourceManagementClient
 from datetime import datetime, timedelta
 
-subscription_id = '2780142e-3e5e-4f38-9b5c-5555e7c5f377'
+subscription_id = ''
 resource_group_name = 'Project'
 
 def get_azure_resources():
